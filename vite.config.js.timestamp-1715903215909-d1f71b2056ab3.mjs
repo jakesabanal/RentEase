@@ -10,6 +10,7 @@ var vite_config_default = defineConfig({
   preview: {
     port: 8080
   },
+  root: 'src',
   plugins: [react()],
   css: {
     postcss: {
