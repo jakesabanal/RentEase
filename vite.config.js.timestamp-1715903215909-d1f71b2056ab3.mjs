@@ -4,6 +4,12 @@ import react from "file:///D:/RentEase/RentEase/node_modules/@vitejs/plugin-reac
 import tailwindcss from "file:///D:/RentEase/RentEase/node_modules/tailwindcss/lib/index.js";
 var __vite_injected_original_import_meta_url = "file:///D:/RentEase/RentEase/vite.config.js";
 var vite_config_default = defineConfig({
+  server: {
+    port: 3030
+  },
+  preview: {
+    port: 8080
+  },
   plugins: [react()],
   css: {
     postcss: {
