@@ -5,7 +5,7 @@ import tailwindcss from "file:///D:/RentEase/RentEase/node_modules/tailwindcss/l
 var __vite_injected_original_import_meta_url = "file:///D:/RentEase/RentEase/vite.config.js";
 var vite_config_default = defineConfig({
   server: {
-    port: 3030
+    host: '0.0.0.0'
   },
   preview: {
     port: 8080
